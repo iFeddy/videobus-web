@@ -438,7 +438,6 @@ export default Vue.extend({
       }, 2000)
     },
     watchMovie() {
-      this.loadingInfo = true
       this.$router.push('/watch')
     },
   },
